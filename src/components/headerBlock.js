@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Menu, Icon, Layout } from 'antd'
+import './headerBlock.css'
 
 const { Header } = Layout
 
@@ -8,7 +9,9 @@ class HeaderBlock extends React.Component {
     render() {
         return (
             <Header className="header">
-                <div className="logo" />
+                {/* <div className="logo" > */}
+                    <img className="logo" src="../../public/logo.png" alt="logo"/>
+                {/* </div> */}
                 <Menu
                     theme="dark"
                     mode="horizontal"

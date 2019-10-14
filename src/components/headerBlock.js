@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Menu, Icon, Layout } from 'antd'
+// import { Link } from 'react-router-dom'
+import { Menu, Layout } from 'antd'
 import './headerBlock.css'
 
 const { Header } = Layout
